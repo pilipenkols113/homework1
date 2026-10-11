@@ -45,6 +45,7 @@ int32_t Min(const int32_t* temp, size_t n) {
   }
   return min;
 }
+
 int32_t Max(const int32_t* temp, size_t n) {
   const int32_t cminus_inf = -1000;
   int32_t max = cminus_inf;
@@ -53,6 +54,7 @@ int32_t Max(const int32_t* temp, size_t n) {
   }
   return max;
 }
+
 int32_t UnderZero(const int32_t* temp, size_t n) {
   size_t count = 0;
   for (size_t i = 0; i != n; ++i) {
